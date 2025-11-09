@@ -1,0 +1,29 @@
+{
+  "model_performance": {
+    "r2_score": 0.9101,
+    "mae_kg_ha": 195.0,
+    "rmse_kg_ha": 246.0,
+    "prediction_range": [139.0, 4073.0],
+    "n_samples": 8453,
+    "n_training": 6762,
+    "n_validation": 1691
+  },
+  "grazing_decisions": {
+    "average_score": 35.4,
+    "distribution": {
+      "no_grazing": 0.28,
+      "very_light_grazing": 0.42,
+      "light_grazing": 0.22,
+      "moderate_grazing": 0.08
+    }
+  },
+  "sustainability_metrics": {
+    "average_carbon_sequestration_kg_c_ha": 689.0,
+    "sustainability_score_range": [70.0, 85.0]
+  },
+  "computational_performance": {
+    "training_time_minutes": 45.2,
+    "inference_time_ms": 12.5,
+    "model_size_mb": 48.7
+  }
+}
